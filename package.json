@@ -15,29 +15,8 @@
     "commands": [{
       "command": "template-highlighter.helloWorld",
       "title": "Hello World"
-    }],
-    "languages": [
-      {
-        "id": "html",
-        "extensions": [".html"],
-        "configuration": "./language-grammar.json"
-      }
-    ],
-    "themes": [
-      {
-        "uiTheme":"vs-dark",
-        "label": "My Language",
-        "id": "my-language",
-        "path": "./my-language.json"
-      }
-    ],
-    "grammars": [
-      {
-          "language": "html",
-          "scopeName": "index.html",
-          "path": "./language-grammar.json"
-      }
-  ]
+    }]
+  
   },
   "scripts": {
     "lint": "eslint .",
