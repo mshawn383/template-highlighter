@@ -1,0 +1,23 @@
+{
+    "name": "My Language",
+    "scopeName": "index.html",
+    "settings": {
+      "foreground": "#ff3fff",
+      "background": "#000000",
+      "fontStyle": "normal",
+      "tokenColors": [
+        {
+          "name": "Comments",
+          "scope": "comment",
+          "settings": {
+            "foreground": "#888888",
+            "fontStyle": "italic"
+          }
+        }
+       
+      
+      
+      ]
+    }
+  }
+  

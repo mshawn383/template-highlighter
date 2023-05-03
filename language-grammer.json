@@ -1,0 +1,16 @@
+{
+    "scopeName": "index.html",
+    "patterns": [
+        {
+            "begin": "${",
+            "end": "}",
+            "patterns": [
+                {
+                    "match": "\\${(.+?)\\'}",
+                    "name": "string.template.html"
+                }
+            ],
+            "name": "string.template.begin.html"
+        }
+    ]
+}
